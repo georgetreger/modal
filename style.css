@@ -1,0 +1,85 @@
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+
+
+
+
+  body{
+    background: url('./images/silvana-amicone-aCHBgtcE7D8-unsplash.jpg');
+    background-position: center;
+    background-size: cover;
+       height: 100vh;
+       width: 100%;
+       position: relative;
+  }
+
+      .modal-container{
+         position: fixed;
+         left: 50%;
+         
+      }
+  .question-btn{
+    position: absolute;
+    top: 80%;
+    left: 30%;
+
+  }
+   .question-btn button{
+     background-color: transparent;
+       padding: 0.8rem;
+       font-size: 1rem;
+       color: #f1f1f1;
+        border-radius: 10px;
+        cursor: pointer;
+        outline: none;
+        transition: all 0.3s ease;
+   }
+
+   .question-btn button:hover{
+      background-color: #fff;
+        color: black;
+   }
+
+     .modal{
+        position: fixed;
+          top: 60%;
+          left: 50%;
+          background-color: #fff;
+          padding: 10px 10px 10px 10px;
+          display: flex;
+           justify-content: space-between;
+           align-items: center;
+           white-space: nowrap;
+           width: 100px;
+           height: 50px;
+           font-size: 1rem;
+           border-radius: 5px;
+              display: none;
+              animation: showUp 1s;
+     }
+
+      @keyframes showUp{
+        from{
+           top: -300px;
+           
+        }
+         
+        
+      
+      }
+
+     p{
+    
+        
+     }
+
+       .modal button{
+         background-color: transparent;
+         border: none;
+         outline: none;
+         font-size: 20px;
+         cursor: pointer;
+       }
